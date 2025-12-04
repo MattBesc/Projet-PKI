@@ -1,0 +1,56 @@
+📘 Introduction
+
+Projet réalisé en **novembre 2025** dans le cadre de la formation Cefim, sous la supervision de **Philippe Pinchon**, dont j’ai particulièrement apprécié l’approche pédagogique et la qualité du cours.
+
+---
+
+🎯 Objectif du Projet
+
+Mettre en place une infrastructure réseau virtuelle comprenant :
+
+* Un **contrôleur de domaine** (Windows Server 2022)
+* Un **serveur DNS** intégré à l’AD
+* Une **Active Directory** (AD DS)
+* Une **autorité de certification** (PKI) sous Windows Server 2022
+* Un **serveur web Rocky Linux** sécurisé par un certificat issu de la PKI
+
+---
+
+🏗️ Déploiements Réalisés
+
+**1. Déploiement Active Directory + DNS + Contrôleur de Domaine**
+
+* Installation de Windows Server 2022
+* Promotion du serveur en **contrôleur de domaine**
+* Mise en place de l’AD DS
+* Configuration et intégration du serveur **DNS**
+
+---
+
+**2. Mise en Place d’une Autorité de Certification (PKI)**
+
+* Installation du rôle AD CS (Active Directory Certificate Services)
+* Configuration d’une **autorité de certification d’entreprise**
+* Génération d'un certificat pour le serveur web
+* Gestion des modèles et des autorisations d'émission
+
+---
+
+**3. Déploiement d’un Serveur Web sous Rocky Linux**
+
+* Installation de Rocky Linux
+* Installation d’Apache ou Nginx
+* Génération d’une CSR (Certificate Signing Request)
+* Récupération et installation du certificat signé par la PKI Windows
+* Mise en place d’un site web sécurisé en **HTTPS** avec certificat interne
+
+---
+
+✔️ Résumé du Projet
+
+Ce projet m’a permis de :
+
+* Comprendre et déployer une infrastructure **AD DS** complète
+* Configurer un **DNS** intégré et fonctionnel
+* Mettre en œuvre une **PKI** professionnelle
+* Sécuriser un serveur web Linux avec des certificats d’entreprise
